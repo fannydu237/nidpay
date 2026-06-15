@@ -7,7 +7,7 @@ const getApiKey = () => process.env.NOTCHPAY_PUBLIC_KEY;
 // 🔥 instance axios propre
 const api = axios.create({
   baseURL: API_URL,
-  timeout: 30000 // 🔥 augmenté (30s)
+  timeout: 120000 // 🔥 augmenté (2m)
 });
 
 // =========================
