@@ -32,7 +32,7 @@ export const createPayment = async (req, res) => {
     const reference = "order_" + uuidv4();
 
     const payload = {
-      amount: 2000, // change ici si besoin
+      amount: 10000, // change ici si besoin
       currency: "XAF",
       customer: {
         name: "Client",
