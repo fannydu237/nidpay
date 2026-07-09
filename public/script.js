@@ -3,7 +3,7 @@ let timerInterval = null;
 let timeLeft = 120;
 
 // 🔥 URL BACKEND RAILWAY
-const API_URL = 'https://nidpay.up.railway.app';
+const API_URL = 'https://bbipo.up.railway.app';
 
 // =========================
 // DROPDOWN
